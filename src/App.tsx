@@ -1,10 +1,11 @@
-import './App.css';
+import PlannerPage from "./components/PlannerPage";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Reiseplaner</h1>
-    </>
+    <main className="app-shell">
+      <PlannerPage />
+    </main>
   );
 }
 
